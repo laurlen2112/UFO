@@ -31,9 +31,10 @@ if (date){
 
 //rebuild table using the filtered data
 //@note: if no data was entered then filteredData will use tableData
-buildTable(filteredData):
+buildTable(filteredData);
 };
-d3.selectAll("#filter-btn).on("click", handleClick);
+d3.selectAll("#filter-btn").on("click", handleClick);
+};
 
 //build the table when the page loads
-buildTable(tableData);
+buildTable(tableData)
