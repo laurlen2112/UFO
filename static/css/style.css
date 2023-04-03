@@ -1,0 +1,38 @@
+body {
+    color: #f7f7f7;
+    font-family: 'Gothic';
+    background-color: #292b2c;
+  }
+
+.jumbotron {
+    background-image: url("../images/nasa.jpg");
+    background-size: 100% 100%;
+    text-align: center;			
+  }
+
+h3{
+  -webkit-text-stroke: .5px #aaec7a;
+	text-shadow: -1px 1px 2px #aaec7a;,
+				  1px 1px 2px #aaec7a;,
+				  1px -1px 0 #aaec7a;,
+				  -1px -1px 0 #aaec7a;;
+}
+
+  ul {
+    list-style: none;
+  }
+
+p {
+    padding: 10px 10px 10px 10px;
+    font-family: "SimSun"
+  
+}
+
+input {
+  border-color: #aaec7a;
+  border-width: 3px;
+}
+
+footer {
+    padding: 25px 25px 25px 25px;
+  }
